@@ -1,0 +1,41 @@
+/* #region : boxes */
+    .box
+    {
+        position: relative;
+
+        width: unset;
+        height: unset;
+
+        padding: 1lh 1ch;
+        margin: 0.5lh 0.5ch;
+
+        word-break: normal;
+
+        border: 2px solid var(--dewberry);
+    }
+
+    .boxTitle
+    {
+        position: absolute;
+        top: -0.5lh;
+        left: 1ch;
+
+        user-select: none;
+
+        background-color: var(--black);
+    }
+
+    .boxTitle::before
+    {
+        content: "";
+
+        margin: 0 0.5ch;
+    }
+
+    .boxTitle::after
+    {
+        content: "";
+
+        margin: 0 0.5ch;
+    }
+/* #endregion */

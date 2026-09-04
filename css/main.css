@@ -1,0 +1,98 @@
+/* #region : main */
+    :root
+    {
+        --black: #000000;
+        --white: #ffffff;
+        --grey: #777777;
+
+        --dewberry: #9360a9;
+    }
+
+    *
+    {
+        color: var(--white);
+        font-family: "Courier Prime Code";
+        font-size: 12pt;
+        line-height: normal;
+
+        box-sizing: border-box;
+    }
+
+    *::selection
+    {
+        background-color: var(--dewberry);
+        color: var(--black);
+    }
+
+    html
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100vw;
+        height: 100vh;
+
+        padding: 0;
+        margin: 0;
+
+        overflow: hidden;
+
+        background-color: var(--black);
+    }
+
+    body
+    {
+        display: flex;
+        flex-direction: column;
+
+        width: auto;
+        height: 100%;
+        aspect-ratio: 4 / 3;
+
+        padding: 0;
+        margin: 0 auto;
+
+        overflow: hidden;
+
+        background-color: var(--black);
+    }
+/* #endregion */
+
+/* #region : specials */
+    #signature
+    {
+        position: absolute;
+        right: 1ch;
+        bottom: 1lh;
+
+        width: 8.75ch;
+        height: auto;
+
+        color: var(--dewberry);
+    }
+/* #endregion */
+
+/* #region : elements */
+    p
+    {
+        margin: 0;
+    }
+
+    a
+    {
+        color: var(--dewberry);
+    }
+
+    a:hover
+    {
+        color: var(--black);
+        text-decoration: none;
+        background-color: var(--dewberry);
+    }
+
+    span.subtle
+    {
+        color: var(--grey);
+    }
+/* #endregion */

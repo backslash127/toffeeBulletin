@@ -1,0 +1,17 @@
+@font-face
+{
+	font-family: "Courier Prime Code";
+	src: url(/fonts/Courier\ Prime\ Code.ttf);
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: "Courier Prime Code";
+	src: url(/fonts/Courier\ Prime\ Code\ Italic.ttf);
+
+	font-weight: normal;
+	font-style: italic;
+}
