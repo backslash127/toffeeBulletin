@@ -59,20 +59,6 @@
     }
 /* #endregion */
 
-/* #region : specials */
-    #signature
-    {
-        position: absolute;
-        right: 1ch;
-        bottom: 1lh;
-
-        width: 8.75ch;
-        height: auto;
-
-        color: var(--dewberry);
-    }
-/* #endregion */
-
 /* #region : elements */
     p
     {
