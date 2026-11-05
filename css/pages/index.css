@@ -102,6 +102,17 @@
         padding: 0;
     }
 
+    #postFrame
+    {
+        width: 100%;
+        height: 100%;
+
+        padding: 0;
+        margin: 0;
+
+        border: none 0 transparent;
+    }
+
     #main
     {
         flex: 1 0 0;
@@ -130,22 +141,5 @@
     {
         display: flex;
         flex-direction: row;
-    }
-/* #endregion */
-
-/* #region : specials */
-    #signature
-    {
-        position: absolute;
-        right: 1lh;
-        bottom: 8ch;
-
-        width: 4lh;
-        height: 4ch;
-
-        padding: 0;
-        margin: 0;
-
-        color: var(--accent);
     }
 /* #endregion */
