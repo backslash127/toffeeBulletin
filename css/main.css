@@ -1,18 +1,18 @@
 /* #region : main */
     :root
     {
-        --black: #000000;
+        --black: #1c1718;
         --white: #ffffff;
-        --grey: #777777;
+        --grey: #896759;
 
-        --dewberry: #9360a9;
+        --accent: #ce6031;
     }
 
     *
     {
         color: var(--white);
         font-family: "Courier Prime Code";
-        font-size: 12pt;
+        font-size: 11pt;
         line-height: normal;
 
         box-sizing: border-box;
@@ -20,7 +20,7 @@
 
     *::selection
     {
-        background-color: var(--dewberry);
+        background-color: var(--accent);
         color: var(--black);
     }
 
@@ -47,7 +47,7 @@
         flex-direction: column;
 
         width: auto;
-        height: 100%;
+        height: 100vh;
         aspect-ratio: 4 / 3;
 
         padding: 0;
@@ -67,17 +67,25 @@
 
     a
     {
-        color: var(--dewberry);
+        color: var(--accent);
     }
 
     a:hover
     {
         color: var(--black);
         text-decoration: none;
-        background-color: var(--dewberry);
+        background-color: var(--accent);
     }
 
-    span.subtle
+    hr
+    {
+        padding: 0;
+        margin: 2ch 0;
+
+        border: solid 0.15ch var(--accent);
+    }
+
+    .subtle
     {
         color: var(--grey);
     }

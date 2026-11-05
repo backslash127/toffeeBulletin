@@ -12,7 +12,7 @@
 
         user-select: none;
 
-        background-color: var(--dewberry);
+        background-color: var(--accent);
     }
 
     #menuActions
@@ -51,14 +51,14 @@
 
     .menuItem:hover
     {
-        color: var(--dewberry);
+        color: var(--accent);
         background-color: var(--black);
     }
 
     .menuItem:active
     {
         color: var(--black);
-        background-color: var(--dewberry);
+        background-color: var(--accent);
     }
 
     #menuTag
@@ -133,20 +133,19 @@
     }
 /* #endregion */
 
-
 /* #region : specials */
     #signature
     {
         position: absolute;
-        right: 1.5ch;
-        bottom: 1.5lh;
+        right: 1lh;
+        bottom: 8ch;
 
-        width: 8.75ch;
-        height: auto;
+        width: 4lh;
+        height: 4ch;
 
         padding: 0;
         margin: 0;
 
-        color: var(--dewberry);
+        color: var(--accent);
     }
 /* #endregion */

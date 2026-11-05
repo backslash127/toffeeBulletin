@@ -11,7 +11,7 @@
 
         word-break: normal;
 
-        border: 2px solid var(--dewberry);
+        border: 0.25ch solid var(--accent);
     }
 
     .boxTitle

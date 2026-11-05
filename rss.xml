@@ -1,0 +1,24 @@
+<!--
+<guid> : https://www.uuidgenerator.net/guid
+<pubdate> : uses RFC 2822 format https://www.unixtimestamp.com/
+-->
+
+<rss version="2.0">
+    <channel>
+        <!-- metadata -->
+        <title>Toffee Bulletin</title>
+        <description>Toffee Bulletin's RSS feed</description>
+        <link>https://bulletincorner.nekoweb.org/</link>
+
+
+        <!-- items -->
+        <item>
+            <title>[ toffee boardpost ]</title>
+            <description>11/04/2026</description>
+            <link>https://bulletincorner.nekoweb.org/</link>
+
+            <guid>cf83b966-2b27-4fd2-bd0d-c8b0cabb60af</guid>
+            <pubdate>Thu, 05 Nov 2026 05:29:09 +0000</pubdate>
+        </item>
+    </channel>
+</rss>
