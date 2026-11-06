@@ -19,10 +19,9 @@
         <!-- #endregion -->
 
         <!-- #region : js -->
-            <script src="https://u.widget.st/ar.js"></script>
-
+            <script src="/js/stats.js" defer></script>
             <script src="/js/date.js" defer></script>
-            <script src="/js/version.js" defer></script>
+            <!-- <script src="/js/version.js" defer></script> -->
         <!-- #endregion -->
     </head>
 
@@ -76,30 +75,36 @@
                 <div id="statTracker" class="box">
                     <p class="boxTitle">Stats</p>
 
-                    <p id="stat-Hits"><span class="subtle">// VISTS :&nbsp;</span><ws-widget type="hc" iid="10476"></ws-widget></p>
-                    <p><span class="subtle">// DATE : </span><span id="stat-Date"></span></p>
-                    <p><span class="subtle">// UPDATED : </span><span id="stat-LastUpdate"></span></p>
+                    <p id="stat-visitors"><span class="subtle">// VISTS :</span></p>
+                    <p id="stat-followers"><span class="subtle">// FOLLOWERS :</span></p>
+
+                    <hr>
+
+                    <p id="stat-date"><span class="subtle">// DATE :</span></p>
+                    <p id="stat-updated"><span class="subtle">// UPDATED :</span></p>
                 </div>
             </div>
         <!-- #endregion -->
 
         <!-- #region : post -->
-            <div id="main" class="box">
-                <p class="boxTitle">Bulletin Board</p>
+            <div id="main">
+                <div id="frameContainer" class="box">
+                    <p class="boxTitle">Bulletin Board</p>
 
-                <iframe src="/post.html" id="postFrame">
-                    couldn't load the bulletin post. sorry! X_X
+                    <iframe src="/post.html" id="postFrame">
+                        couldn't load the bulletin post. sorry! X_X
 
-                </iframe>
+                    </iframe>
+                </div>
+
+                <div id="licensing" class="box">
+                    <p class="boxTitle">Licensing</p>
+
+                    <p>Toffee Bulletin <span class="subtle">[version <span id="stat-version" class="subtle"></span>]</span></p>
+                    <p>Copywrite (c) Felidsys. No rights reserved.</p>
+                </div>
             </div>
         <!-- #endregion -->
-        </div>
-
-        <div id="licensing" class="box">
-            <p class="boxTitle">Licensing</p>
-
-            <p>Toffee Bulletin <span class="subtle">[version <span id="stat-Version" class="subtle"></span>]</span></p>
-            <p>Copywrite (c) Felidsys. No rights reserved.</p>
         </div>
     <!-- #endregion -->
     </body>

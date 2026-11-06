@@ -102,6 +102,11 @@
         padding: 0;
     }
 
+    #frameContainer
+    {
+        flex: 1 0 auto;
+    }
+
     #postFrame
     {
         width: 100%;
@@ -115,6 +120,9 @@
 
     #main
     {
+        display: flex;
+        flex-direction: column;
+
         flex: 1 0 0;
 
         width: 75%;
@@ -133,6 +141,12 @@
     #infoBox
     {
         flex: 1 0 auto;
+    }
+
+    #statTracker
+    {
+        max-height: fit-content;
+        min-height: fit-content;
     }
 /* #endregion */
 
