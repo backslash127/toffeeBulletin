@@ -1,0 +1,48 @@
+.site-box
+{
+    box-sizing: border-box;
+
+    font-size: 10px;
+
+    background-image: url('https://bulletincorner.nekoweb.org/bulletincorner.nekoweb.org/media/images/me.gif');
+    background-color: #1c1718;
+    border: solid 3px #ce6031;
+}
+
+.site-box .sitefeature
+{
+    width: 0;
+    height: 0;
+
+    padding: 0;
+    margin: 0;
+
+    border: none;
+}
+
+.site-box .site-title
+{
+	width: 0;
+	height: 0;
+}
+
+.site-box a
+{
+	display: block;
+
+	width: 100%;
+	height: 100%;
+}
+
+.site-box p
+{
+    padding: 0 1ch;
+    margin: 0;
+
+    color: #1c1718;
+    font-size: 14px;
+    font-family: "Courier";
+    text-align: left;
+
+    background: #ce6031;
+}
