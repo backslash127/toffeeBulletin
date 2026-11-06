@@ -29,15 +29,19 @@
     #signature
     {
         position: absolute;
-        right: 1ch;
-        bottom: 6ch;
 
-        width: 4lh;
-        height: 4ch;
+        right: 1ch;
+        bottom: 0ch;
 
         padding: 0;
         margin: 0;
+    }
 
+    #signature *
+    {
         color: var(--accent);
+
+        padding: 0;
+        margin: 0;
     }
 /* #endregion */
