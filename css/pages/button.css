@@ -1,0 +1,59 @@
+body
+{
+    width: 317.94px;
+    height: 112px;
+
+    aspect-ratio: unset;
+
+    padding: 0;
+    margin: 0;
+}
+
+#linkButtonContainer
+{
+    width: 100%;
+    height: 100%;
+
+    padding: 0;
+    margin: 0;
+}
+
+#linkButton
+{
+    position: relative;
+
+    width: auto;
+    height: 93px;
+
+    background-color: var(--black);
+}
+
+#linkButton .image
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 75%;
+    height: 100%;
+
+    background: url("/media/images/me.gif") no-repeat;
+    background-size: cover;
+    background-position: center right;
+
+    opacity: 50%;
+}
+
+#linkButton span
+{
+    position: absolute;
+
+    font-weight: bold;
+
+    z-index: 10;
+}
+
+span p
+{
+    font-size: 1.5em;
+}

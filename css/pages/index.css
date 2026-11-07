@@ -53,6 +53,8 @@
     {
         color: var(--accent);
         background-color: var(--black);
+
+        cursor: default;
     }
 
     .menuItem:active

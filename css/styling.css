@@ -39,3 +39,28 @@
         margin: 0 0.5ch;
     }
 /* #endregion */
+
+/* #region : text */
+
+    .subtle
+    {
+        color: var(--grey);
+    }
+
+    .colored
+    {
+        color: var(--accent);
+    }
+
+    .highlighted
+    {
+        color: var(--black);
+        background-color: var(--accent);
+    }
+
+    .highlighted::selection
+    {
+        color: var(--accent);
+        background-color: var(--black);
+    }
+/* #endregion */

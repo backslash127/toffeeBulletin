@@ -8,14 +8,23 @@
         <!-- metadata -->
         <title>Toffee Bulletin</title>
         <description>Toffee Bulletin's RSS feed</description>
-        <link>https://bulletincorner.nekoweb.org/</link>
+        <link>https://bulletincorner.nekoweb.org/home</link>
 
 
         <!-- items -->
         <item>
             <title>[ toffee boardpost ]</title>
+            <description>11/07/2026</description>
+            <link>https://bulletincorner.nekoweb.org/home</link>
+
+            <guid>cf156db9-77a3-46f7-a950-2eed4b77a9ea</guid>
+            <pubdate>Sat, 07 Nov 2026 22:34:49 +0000</pubdate>
+        </item>
+
+        <item>
+            <title>[ toffee boardpost ]</title>
             <description>11/04/2026</description>
-            <link>https://bulletincorner.nekoweb.org/</link>
+            <link>https://bulletincorner.nekoweb.org/home</link>
 
             <guid>cf83b966-2b27-4fd2-bd0d-c8b0cabb60af</guid>
             <pubdate>Thu, 05 Nov 2026 05:29:09 +0000</pubdate>

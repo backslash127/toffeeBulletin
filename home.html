@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- #region : metadata -->
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width">
+
+            <title>toffee bulletin</title>
+        <!-- #endregion -->
+
+        <!-- #region : css -->
+            <link href="/css/palettes/basePalette.css" rel="stylesheet">
+            <link href="/css/main.css" rel="stylesheet">
+            <link href="/css/fonts.css" rel="stylesheet">
+            <link href="/css/styling.css" rel="stylesheet">
+            <link href="/css/filter.css" rel="stylesheet">
+
+            <link href="/css/pages/index.css" rel="stylesheet">
+        <!-- #endregion -->
+
+        <!-- #region : js -->
+            <script src="/js/stats.js" defer></script>
+            <script src="/js/date.js" defer></script>
+            <!-- <script src="/js/version.js" defer></script> -->
+        <!-- #endregion -->
+    </head>
+
+    <body class="scanlines">
+        <ws-widget type="cursor" iid="10480" embed="script"></ws-widget>
+
+    <!-- #region : menu bar -->
+        <div id="menuBar">
+            <div id="menuActions">
+                <p class="menuItem"><span>F</span>ile</p>
+                <p class="menuItem"><span>E</span>dit</p>
+                <p class="menuItem"><span>V</span>iew</p>
+                <p class="menuItem"><span>T</span>ools</p>
+                <p class="menuItem"><span>H</span>elp</p>
+            </div>
+
+            <div id="menuTag">
+                <p>[ toffee bulletin ]</p>
+            </div>
+        </div>
+    <!-- #endregion -->
+
+    <!-- #region : main content -->
+        <div id="mainContainer">
+        <!-- #region : sidebar -->
+            <div id="sidebar">
+                <div id="infoBox" class="box">
+                    <p class="boxTitle">Info</p>
+
+                    <p>welcome to the Toffee Bulletin!</p>
+                    <p>i hope you enjoy your stay.</p>
+                    <br>
+                    <p>occasionally, new posts will be put up on the board.</p>
+                    <br>
+                    <p>any previous bulletin posts will be stored in the Dewberry Archives!</p>
+                    <p class="link"><a href="/archive">archives link</a></p>
+                    <br>
+                    <a class="webButton" href="https://bulletincorner.nekoweb.org/" target="_blank"><img src="/media/callieButton_med.gif"></a>
+                    <br>
+                    <p><span class="subtle">(i) Toffee Bulletin is run by Callie of "Felidsys".</span></p>
+                </div>
+
+                <div id="contact" class="box">
+                    <p class="boxTitle">Contact</p>
+
+                    <p>have any questions or comments?</p>
+                    <br>
+                    <p class="link"><a href="mailto:katslash@proton.me">send us an email!</a></p>
+                    <br>
+                    <p><span class="subtle">ill try my best to read and/or respond to any emails sent to me. please be patient and respectful!</span></p>
+                </div>
+
+                <div id="statTracker" class="box">
+                    <p class="boxTitle">Stats</p>
+
+                    <p id="stat-visitors"><span class="subtle">// VISTS :</span></p>
+                    <p id="stat-followers"><span class="subtle">// FOLLOWERS :</span></p>
+
+                    <hr>
+
+                    <p id="stat-date"><span class="subtle">// DATE :</span></p>
+                    <p id="stat-updated"><span class="subtle">// UPDATED :</span></p>
+                </div>
+            </div>
+        <!-- #endregion -->
+
+        <!-- #region : post -->
+            <div id="main">
+                <div id="frameContainer" class="box">
+                    <p class="boxTitle">Bulletin Board</p>
+
+                    <iframe src="/post.html" id="postFrame">
+                        couldn't load the bulletin post. sorry! X_X
+
+                    </iframe>
+                </div>
+
+                <div id="licensing" class="box">
+                    <p class="boxTitle">Licensing</p>
+
+                    <p>Toffee Bulletin <span class="subtle">[version <span id="stat-version" class="subtle"></span>]</span></p>
+                    <p>Copywrite (c) Felidsys. No rights reserved.</p>
+                </div>
+            </div>
+        <!-- #endregion -->
+        </div>
+    <!-- #endregion -->
+    </body>
+</html>

@@ -1,13 +1,4 @@
 /* #region : main */
-    :root
-    {
-        --black: #1c1718;
-        --white: #ffffff;
-        --grey: #896759;
-
-        --accent: #ce6031;
-    }
-
     *
     {
         color: var(--white);
@@ -68,6 +59,32 @@
     a
     {
         color: var(--accent);
+
+        text-decoration: none;
+    }
+
+    p.link, p.link a
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+    p.link a::before
+    {
+        content: "> ";
+
+        user-select: all;
+    }
+
+    a:has(img)
+    {
+        display: block;
+
+        width: fit-content;
+        height: fit-content;
+
+        line-height: 0;
     }
 
     a:hover
@@ -77,6 +94,12 @@
         background-color: var(--accent);
     }
 
+    a:active
+    {
+        color: var(--accent);
+        background-color: var(--black);
+    }
+
     hr
     {
         padding: 0;
@@ -84,9 +107,7 @@
 
         border: solid 0.15ch var(--accent);
     }
+/* #endregion */
 
-    .subtle
-    {
-        color: var(--grey);
-    }
+/* #region : misc. */
 /* #endregion */
