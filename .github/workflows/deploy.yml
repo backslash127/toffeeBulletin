@@ -16,4 +16,4 @@ jobs:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-domain: 'bulletincorner.nekoweb.org'
           nekoweb-username: 'bulletinCorner'
-          directory: 'test'
+          directory: 'bulletincorner.nekoweb.org'
