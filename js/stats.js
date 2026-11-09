@@ -30,7 +30,7 @@ let domain = "bulletincorner.nekoweb.org"; // <<<--- Insert your domain here!
 
     if (document.getElementById("stat-visitors"))
         document.getElementById("stat-visitors").innerHTML =
-        `<span class="subtle">// VISTS :</span> ${String(json.views).padStart(5, '0')}`;
+        `<span class="subtle">// VISITS :</span> ${String(json.views).padStart(5, '0')}`;
 
     if (document.getElementById("stat-followers"))
         document.getElementById("stat-followers").innerHTML =
