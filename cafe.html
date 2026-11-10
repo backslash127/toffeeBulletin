@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- #region : metadata -->
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width">
+
+            <title>caramel cafe</title>
+            <link rel="icon" type="image/x-icon" href="/media/icons/favicon_toffee.ico">
+        <!-- #endregion -->
+
+        <!-- #region : css -->
+            <link href="/css/palettes/toffeePalette.css" rel="stylesheet">
+            <link href="/css/main.css" rel="stylesheet">
+            <link href="/css/fonts.css" rel="stylesheet">
+            <link href="/css/styling.css" rel="stylesheet">
+            <link href="/css/filter.css" rel="stylesheet">
+
+            <link href="/css/pages/index.css" rel="stylesheet">
+        <!-- #endregion -->
+
+        <!-- #region : js -->
+            <script src="/js/stats.js" defer></script>
+            <script src="/js/date.js" defer></script>
+        <!-- #endregion -->
+    </head>
+
+    <body class="scanlines">
+        <ws-widget type="cursor" iid="10480" embed="script"></ws-widget>
+
+    <!-- #region : menu bar -->
+        <div id="menuBar">
+            <div id="menuActions">
+                <p class="menuItem"><span>F</span>ile</p>
+                <p class="menuItem"><span>E</span>dit</p>
+                <p class="menuItem"><span>V</span>iew</p>
+                <p class="menuItem"><span>T</span>ools</p>
+                <p class="menuItem"><span>H</span>elp</p>
+            </div>
+
+            <div id="menuTag">
+                <p>[ caramel cafe ]</p>
+            </div>
+        </div>
+    <!-- #endregion -->
+
+    <!-- #region : main content -->
+        <div id="mainContainer">
+        <!-- #region : sidebar -->
+            <div id="sidebar">
+                <div id="infoBox" class="box">
+                    <p class="boxTitle">Info</p>
+
+                    <p>welcome to the Caramel Cafe.</p>
+
+                    <br>
+
+                    <p>this is an archive of conversations between members of "Felidsys".</p>
+
+                    <br>
+
+                    <section> <!-- NAVIGATION -->
+                        <ul id="navigationLinks" class="treeList">
+                            <p class="subtle">󱣱 navigation</p>
+
+                            <li class="link"><a href="/"> bulletin</a></li>
+                            <li class="link"><a href="/archive"> archives</a></li>
+                            <li class="link"><a href="/cafe"> cafe</a></li>
+                        </ul>
+                    </section>
+
+                    <br>
+
+                    <p><span class="subtle">(i) Caramel Cafe is run by "Felidsys".</span></p>
+                </div>
+
+                <div id="contact" class="box">
+                    <p class="boxTitle">Contact</p>
+
+                    <p>have any questions or comments?</p>
+                    <br>
+                    <p class="link"><a href="mailto:katslash@proton.me">send us an email!</a></p>
+                    <br>
+                    <p><span class="subtle">ill try my best to read and/or respond to any emails sent to me. please be patient and respectful!</span></p>
+                </div>
+
+                <div id="statTracker" class="box">
+                    <p class="boxTitle">Stats</p>
+
+                    <p id="stat-visitors"><span class="subtle">// VISTS :</span></p>
+                    <p id="stat-followers"><span class="subtle">// FOLLOWERS :</span></p>
+
+                    <hr>
+
+                    <p id="stat-date"><span class="subtle">// DATE :</span></p>
+                    <p id="stat-updated"><span class="subtle">// UPDATED :</span></p>
+                </div>
+            </div>
+        <!-- #endregion -->
+
+        <!-- #region : post -->
+            <div id="main">
+                <div id="frameContainer" class="box">
+                    <p class="boxTitle">Cafe Chatlogs</p>
+
+                    <iframe src="/chatlogs/chats/" id="postFrame">
+                        couldn't load the archives viewport. sorry! X_X
+
+                    </iframe>
+                </div>
+
+                <div id="licensing" class="box">
+                    <p class="boxTitle">Licensing</p>
+
+                    <p>Caramel Cafe <span class="subtle">[version <span id="stat-version" class="subtle"></span>]</span></p>
+                    <p>Copywrite (c) Felidsys. No rights reserved.</p>
+                </div>
+            </div>
+        <!-- #endregion -->
+        </div>
+    <!-- #endregion -->
+    </body>
+</html>

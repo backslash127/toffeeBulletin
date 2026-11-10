@@ -2,8 +2,8 @@
     *
     {
         color: var(--white);
-        font-family: "Courier Prime Code";
-        font-size: 11pt;
+        font-family: "Gohu 14";
+        font-size: 14px;
         line-height: normal;
 
         box-sizing: border-box;
@@ -63,14 +63,14 @@
         text-decoration: none;
     }
 
-    p.link, p.link a
+    .link, .link a
     {
         display: block;
 
         width: 100%;
     }
 
-    p.link a::before
+    .link a::before
     {
         content: "> ";
 

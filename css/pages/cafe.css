@@ -1,0 +1,19 @@
+.callieChat *
+{
+    color: #ce6031;
+}
+
+.callieChat p::before
+{
+    content: "CALLIE : ";
+}
+
+.katChat *
+{
+    color: #9460a9;
+}
+
+.katChat p::before
+{
+    content: "KAT : ";
+}

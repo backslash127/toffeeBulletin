@@ -11,7 +11,7 @@
 
         word-break: normal;
 
-        border: 0.25ch solid var(--accent);
+        border: 0.125ch solid var(--accent);
     }
 
     .boxTitle
@@ -40,8 +40,31 @@
     }
 /* #endregion */
 
-/* #region : text */
+/* #region : elements */
+    .treeList
+    {
+        list-style: none;
 
+        padding: 0;
+        margin: 0;
+    }
+
+    .treeList li ::before
+    {
+        content: "├╴ ";
+
+        color: var(--grey);
+        background: var(--black);
+    }
+
+    .treeList li:last-child ::before
+    {
+        content: "└╴ ";
+    }
+
+/* #endregion */
+
+/* #region : text */
     .subtle
     {
         color: var(--grey);
