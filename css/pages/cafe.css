@@ -1,19 +1,36 @@
-.callieChat *
-{
-    color: #ce6031;
-}
+/* #region : Callie */
+    .callieChat *
+    {
+        color: #ce6031;
+    }
 
-.callieChat p::before
-{
-    content: "CALLIE : ";
-}
+    .callieChat p::before
+    {
+        content: "CALLIE : ";
+    }
 
-.katChat *
-{
-    color: #9460a9;
-}
+    .callieChat p::selection
+    {
+        color: #1c1718;
+        background-color: #ce6031;
+    }
 
-.katChat p::before
-{
-    content: "KAT : ";
-}
+/* #endregion */
+
+/* #region : Kat */
+    .katChat *
+    {
+        color: #9460a9;
+    }
+
+    .katChat p::before
+    {
+        content: "KAT : ";
+    }
+
+    .katChat p::selection
+    {
+        color: #19171c;
+        background-color: #9460a9;
+    }
+    /* #endregion */

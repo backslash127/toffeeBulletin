@@ -145,6 +145,11 @@
         flex: 1 0 auto;
     }
 
+    #navBox
+    {
+        flex: auto auto auto;
+    }
+
     #statTracker
     {
         max-height: fit-content;

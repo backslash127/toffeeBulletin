@@ -105,7 +105,9 @@
         padding: 0;
         margin: 2ch 0;
 
-        border: solid 0.15ch var(--accent);
+        background: none transparent;
+        border: none;
+        border-bottom: solid 0.125ch var(--accent);
     }
 /* #endregion */
 
